@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add new todo items","Add todo items","SUCCESS","2021-08-22T17:06:49.852+08:00[Asia/Singapore]","0.0","5.17"
+"Add new todo items","Add more new items to the todo list","FAILURE","2021-08-22T17:06:55.741+08:00[Asia/Singapore]","0.0","6.01"
+"complete todo item","Complete todo item and filter Active and All todo","SUCCESS","2021-08-22T17:07:04.818+08:00[Asia/Singapore]","0.0","3.54"
+"filter todo item","Filter todo item","FAILURE","2021-08-22T17:07:09.582+08:00[Asia/Singapore]","0.0","11.48"

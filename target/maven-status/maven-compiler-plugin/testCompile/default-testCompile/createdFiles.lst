@@ -1,0 +1,17 @@
+todos\actions\clearcompleted\ClearCompleteActions.class
+todos\actions\layout\LayoutQuestions.class
+todos\actions\todolist\TodoList.class
+todos\CucumberTestSuite.class
+todos\actions\completetodos\TodoListEntry.class
+todos\actions\filter\FilterItemsActions.class
+todos\actions\completetodos\CompleteTodoActions.class
+todos\actions\deletetodo\DeleteTodoForm.class
+todos\actions\navigate\NavigateActions.class
+todos\actions\todolist\TodoListActions.class
+debug\RunCucumberTest.class
+todos\actions\addtodo\TodoForm.class
+todos\actions\addtodo\AddNewTodoActions.class
+todos\actions\layout\FooterSection.class
+todos\actions\navigate\TodoMvcHomePage.class
+todos\actions\deletetodo\DeleteTodoActions.class
+todos\stepdefinitions\StepDefinitions.class

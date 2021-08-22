@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Add new todo items" skipped="0" tests="4" time="11.18" timestamp="2021-08-22 05:06:49"><testcase name="Add todo items"/><testcase name="Add more new items to the todo list"><failure message="expected:&lt;&quot;[2 items] left&quot;&gt; but was:&lt;&quot;[1 item] left&quot;&gt;" type="java.lang.AssertionError">expected:&lt;"[2 items] left"&gt; but was:&lt;"[1 item] left"&gt;</failure><system-err>expected:&lt;"[2 items] left"&gt; but was:&lt;"[1 item] left"&gt;&#13;
+todos.stepdefinitions.StepDefinitions.remaining_item_count_displayed(StepDefinitions.java:63)&#13;
+✽.the remaining item count is displayed as "2 items left"(file:src/test/resources/features/01a-add-todo-items-exampleData.feature:11)&#13;
+</system-err></testcase></testsuite>

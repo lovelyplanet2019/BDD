@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: filter todo item
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.76 s <<< FAILURE! - in filter todo item
+Filter todo item(filter todo item)  Time elapsed: 7.273 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //ul[@class='todo-list']//li[contains(.,'First todo item #1')]//input[@type='checkbox'] to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='todo-list']//li[contains(.,'First todo item #1')]//input[@type='checkbox']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1UVHO2K0', ip: '192.168.18.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\jyiyn\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d281e2c816a45f257cd42c4e52f69d8f
+*** Element info: {Using=xpath, value=//ul[@class='todo-list']//li[contains(.,'First todo item #1')]//input[@type='checkbox']}
+

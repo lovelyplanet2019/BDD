@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Add new todo items
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.244 s <<< FAILURE! - in Add new todo items
+Add more new items to the todo list(Add new todo items)  Time elapsed: 2.379 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"[2 items] left"> but was:<"[1 item] left">
+
+Add more new items to the todo list(Add new todo items)  Time elapsed: 2.257 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<"[3 items] left"> but was:<"[1 item] left">
+

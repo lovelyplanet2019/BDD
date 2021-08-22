@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="filter todo item" skipped="0" tests="2" time="11.48" timestamp="2021-08-22 05:07:09"><testcase name="Filter todo item"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-1UVHO2K0', ip: '192.168.18.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1UVHO2K0', ip: '192.168.18.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1UVHO2K0', ip: '192.168.18.56', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: unknown&#13;
+todos.actions.completetodos.CompleteTodoActions.itemCalled(CompleteTodoActions.java:10)&#13;
+todos.stepdefinitions.StepDefinitions.complete(StepDefinitions.java:86)&#13;
+✽.I complete "First todo item #1"(file:src/test/resources/features/03-filter-todo-items.feature:10)&#13;
+</system-err></testcase></testsuite>

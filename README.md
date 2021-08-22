@@ -24,11 +24,19 @@ src
 
 We will be testing web based todo app. You can find it on the [TodoMVC website](https://todomvc.com/examples/vue/). 
 
-# Run the test cases
+## Setup web driver
+1. [Download the web driver](https://chromedriver.chromium.org/downloads). 
+
+2. Place the driver at "src/test/resources/webdriver/windows/<the driver.exe>"
+
+3. Make sure the "webdriver.chrome.driver" path and driver name is correct in this file : serenity.conf
+
+
+## Run the test cases
 
 You can run the tests by right click on feature file at IntelliJ editor.
 
 Take note the glue in configuration should be "todos.stepdefinitions net.serenitybdd.cucumber.actors"
-```
+
 ## Author
 Jean Gan
